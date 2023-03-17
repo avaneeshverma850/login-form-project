@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <style>
+        h2{
+            text-align: center;
+        }
+        .email{
+            height: 30px;
+            margin-left: 45px;
+            margin-right: 45px;
+        }
+        .email:hover{
+            background-color:aqua;
+        }
+        .pass:hover{
+            background-color: aqua;
+        }
+        .field{
+        
+            height: 330px;
+            width: 400px;
+            margin-right: 500px;
+            margin-top: 200px;
+            margin-left: 500px;
+            margin-bottom: 200px;
+            background-color: white;
+        }
+        .pass{
+            height: 30px;
+            margin-left: 45px;
+            margin-right: 45px;
+        }
+        .button{
+            color: white;
+            height: 32px;
+            width: 300px;
+            margin-left: 45px;
+            margin-right: 45px;
+            background-color: rgb(63, 63, 205);
+        }
+        .check{margin-left: 45px;
+        }
+        body{
+            background-color:rgb(146, 100, 189);
+        }
+
+    </style>
+</head>
+<body>
+ <form method="post">
+    <div class="main">
+        <fieldset class="field">
+
+            <h2>Login Form</h2>
+            <label for="emailaddress"></label>
+            <input type="text" id="emailaddress" placeholder="Email Address" class="email" size="40">
+            <br>
+            <br>
+            <label for="password"></label>
+            <input type="password" id="password" placeholder="Password" class="pass" size="40">
+            <br>
+            <br>
+            <input type="checkbox" class="check">
+            <label class="rem">Remember me</label>
+            <br>
+            <br>
+            <button type="submit" class="button">Login</button>
+
+        </fieldset>
+
+    </div>
+ </form>
+</body>
+</html>
